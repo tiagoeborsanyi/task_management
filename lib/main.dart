@@ -5,6 +5,7 @@ void main() {
   runApp(
     const MaterialApp(
       title: 'Gerenciamento de tarefas',
+      debugShowCheckedModeBanner: false,
       home: PresentationPage(),
     ),
   );
